@@ -1,0 +1,46 @@
+body {
+	margin:0;
+}
+.view-tabs {
+	overflow:hidden;
+}
+.tabs-bar {
+	position:relative;
+	display:-webkit-flex;
+	-webkit-flex-flow: row;
+	-webkit-flex-wrap: nowrap; 
+	background:white;
+}
+.tabs-tab {
+	-webkit-flex:1;
+	text-align:center;
+	height:84px;
+	line-height:84px;
+}
+.active {
+	color:red;
+}
+.tabs-tab-line {
+	position: absolute;
+    bottom: 0;
+    height: 4px;
+	display:block;
+	background:red;
+}
+.tab-line-animated {
+	transition:transform 0.3s cubic-bezier(0.86, 0, 0.07, 1); 
+}
+.tabs-content {
+	display:-webkit-flex;
+	-webkit-flex-flow: row;
+	-webkit-flex-wrap: nowrap; 
+}
+.content {
+	flex-shrink: 0;
+	height:auto;
+	background:white;
+	width:100%;
+}
+.tab-content-animated {
+	transition:transform 0.3s cubic-bezier(0.86, 0, 0.07, 1); 
+}
