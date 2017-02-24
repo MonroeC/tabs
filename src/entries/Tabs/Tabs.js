@@ -2,6 +2,7 @@ import React, { Component,PropTypes,Children } from 'react';
 import ReactDOM from 'react-dom';
 import classNames from 'classnames';
 import TabPane from './TabPane';
+import './tabs.css';
 export class Tabs extends Component {
 	static TabPane = TabPane;
 	constructor(props,context) {

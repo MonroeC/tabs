@@ -1,5 +1,6 @@
 import React, { Component,PropTypes } from 'react';
 import ReactDOM from 'react-dom';
+import './tabs.css';
 class Tab extends Component {
 	constructor(props,context) {
 		super(props);
